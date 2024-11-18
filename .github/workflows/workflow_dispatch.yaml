@@ -16,6 +16,11 @@ on:
           - dev
           - qa
           - prod
+      koos-env:
+        description: "custom inputs"
+        required: false
+        default: "koo!"
+        type: string
 
 jobs:
   workflow-dispatch-job:
